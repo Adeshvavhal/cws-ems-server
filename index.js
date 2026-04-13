@@ -37,7 +37,7 @@ const ticketRoutes = require("./routes/ticketRoutes");
 const { getValidWorkingDays } = require("./services/dateUtils");
 const pollRoutes = require("./routes/pollRoutes");
 const Performance = require("./models/performanceSchema"); //added by jayshree
-const PolicyAcknowledgement = require("./models/PolicyAcknowledgement");
+const PolicyAcknowledgement = require("./models/policyAcknowledgement");
 const { v2: cloudinary } = require("cloudinary");
 const { CloudinaryStorage } = require("multer-storage-cloudinary");
 
