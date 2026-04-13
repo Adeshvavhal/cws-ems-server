@@ -10970,7 +10970,7 @@ app.get("/policy/employee-ack/:employeeId", async (req, res) => {
   }
 });
 
-module.exports = { app, autoSendBirthdayEmail, autoSendAnniversaryEmail ,autoGrantLeaveIfProbationCompleted};
+// module.exports = { app, autoSendBirthdayEmail, autoSendAnniversaryEmail ,autoGrantLeaveIfProbationCompleted};
 // require("./cron/Birthdaycron");
 // require("./cron/Anniversarycron");
 const PORT = process.env.PORT || 8000;
